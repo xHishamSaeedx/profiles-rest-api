@@ -25,8 +25,7 @@ SECRET_KEY = '0l#zt0_5c2wp8at42wb--$ihw=n+$9dl(l!0x&$d&j!ey3mqcy'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = bool(int(os.environ.get('DEBUG',1)))
 
-ALLOWED_HOSTS = ['ec2-13-53-187-148.eu-north-1.compute.amazonaws.com',
-                 '127.0.0.1'
+ALLOWED_HOSTS = ['.vercel.app'
                  ]
 
 
